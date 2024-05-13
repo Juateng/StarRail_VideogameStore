@@ -3,10 +3,17 @@ import shopping_cart from './carrito-de-compras.png'
 import halo_inf_case from './halo_infinite_popular.jpg'
 import elden_ring_case from './elden_ring_prod.jpg'
 import doom_eternal_case from './doom_eternal_popular.jpg'
+import facebook from './facebook_icon.png'
+import linkedin from './linkedin_icon.png'
+import twitter from './twitter_icon.png'
+
 
 export const assets = {
     logo,
-    shopping_cart
+    shopping_cart,
+    facebook,
+    linkedin,
+    twitter
 }
 
 export const prod_list = [
