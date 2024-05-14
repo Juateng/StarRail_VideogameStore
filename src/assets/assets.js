@@ -55,10 +55,10 @@ export const prod_list = [
         image: doom_eternal_case,
         plataforma: 'xbox',
         precio: 800
-    }, {
+    },{
         _id: 4,
         nombre: "Stellar Blade",
-        sku: 45879,
+        sku: 125487,
         image: stellar_blade_case,
         plataforma: 'ps5',
         precio: 800
