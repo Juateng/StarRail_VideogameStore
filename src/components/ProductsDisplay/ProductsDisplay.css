@@ -1,4 +1,4 @@
-.prod-display{
+.prod-display {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,22 +6,46 @@
     height: 90vh;
 }
 
-.prod-display h2{
+.prod-display h2 {
     font-size: 50px;
     font-weight: 600;
     text-align: center;
 }
 
-.prod-display-list{
+.prod-display-list {
     margin-top: 50px;
     display: flex;
     gap: 30px;
 }
 
-.prod-display hr{
-    width: 400px;
+.prod-display hr {
+    width: 100%;
+    max-width: 400px;
     height: 6px;
     background: #252525;
-    padding-right: 80px;
+    border: none;
     border-radius: 10px;
+}
+
+
+@media (max-width: 1050px) {
+    .prod-display-list {
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .prod-display-list {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .prod-display-list {
+        gap: 10px;
+    }
 }
