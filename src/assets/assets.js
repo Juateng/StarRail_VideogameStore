@@ -13,9 +13,9 @@ import arrow_icon from './breadcrum_arrow.png'
 import star_icon from './star_icon.png'
 import star_dull_icon from './star_dull_icon.png'
 import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
+import menu_2 from './play_logo.png'
 import menu_3 from './menu_3.png'
-import menu_4 from './menu_4.png'
+import menu_4 from './menu_4.jpg'
 
 
 export const assets = {
